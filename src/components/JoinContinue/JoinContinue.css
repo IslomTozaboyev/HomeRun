@@ -1,0 +1,15 @@
+.joinContinue button {
+  background: #000639 !important;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid white;
+}
+.joinContinue .doop__bg {
+  background: #000639;
+  color: white;
+  border-radius: 10px;
+}
+.joinContinue .women {
+  background-size: cover !important;
+  height: 100% !important;
+}

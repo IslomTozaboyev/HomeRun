@@ -1,0 +1,30 @@
+.home h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 110px;
+  text-align: center;
+  letter-spacing: 2px;
+
+  color: rgba(14, 16, 22, 0.95);
+}
+.home p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 36px;
+  /* or 140% */
+  text-align: center;
+  color: #35393f;
+}
+.home input {
+  flex: 0.5 !important;
+}
+
+@media screen and (max-width: 560px) {
+  .home h1 {
+    font-size: 80px;
+  }
+}

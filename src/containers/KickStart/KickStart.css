@@ -1,0 +1,10 @@
+.kickStart {
+  background: #181818;
+  margin-top: 100px;
+  border-radius: 30px;
+}
+.kickStart .button {
+  background-color: #0092f4 !important;
+  border: none;
+  outline: none;
+}
