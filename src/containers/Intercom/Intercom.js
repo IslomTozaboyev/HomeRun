@@ -16,7 +16,7 @@ class Internet extends Component {
 export default class Intercom extends Component {
     render() {
         return (
-            <div className="intercom">
+            <div className="intercom" id="Learn">
                 <div className="container">
                     <div className="row">
                         <Internet>

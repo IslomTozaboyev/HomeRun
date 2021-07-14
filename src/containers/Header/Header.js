@@ -28,13 +28,13 @@ export default class Header extends Component {
                        
                         
                         <div className={`nav__menu ${this.state.a && "nav__start" || ""}`}>
-                            <a href="#">Product</a>
-                            <a href="#">Templates
+                            <a href="#Product">Product</a>
+                            <a href="#Templates">Templates
                                 <span className="badge bg-danger rounded ms-1">new</span>
                             </a>
-                            <a href="#">Pricing</a>
-                            <a href="#">Customers</a>
-                                <a href="#">Learn</a>                            
+                            <a href="#Pricing">Pricing</a>
+                            <a href="#Customers">Customers</a>
+                                <a href="#Learn">Learn</a>                            
                                 <Button className="times" onClick={this.showNav} color="success">
                                     <FontAwesomeIcon icon={faTimes}/>
                                 </Button>

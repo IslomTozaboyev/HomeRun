@@ -17,7 +17,7 @@ class TransferCard extends Component {
 export default class Transfer extends Component {
     render() {
         return (
-         <div className="transfer">
+         <div className="transfer" id="Templates">
                 <div className="container">
                     <div className="row p-0 ">
                          <TransferCard>

@@ -11,7 +11,7 @@ import photo2 from "../../img/photo1.png"
 export default class KickStart extends Component {
     render() {
         return (
-                <div className="container kickStart">
+                <div className="container kickStart" id="Customers">
                     <div className="row">
                         <div className="col-md-12">
                             <JoinClub>

@@ -3,7 +3,7 @@ import "./JoinClub.css"
 
 export default  class JoinClub extends Component{
     render() {
-        return <div>
+        return <div id="Pricing">
             {this.props.children}
         </div>
     }
