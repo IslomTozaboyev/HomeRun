@@ -7,9 +7,12 @@
 .joinContinue .doop__bg {
   background: #000639;
   color: white;
-  border-radius: 10px;
 }
 .joinContinue .women {
   background-size: cover !important;
   height: 100% !important;
+  object-fit: cover !important;
+}
+.apple {
+  border-radius: 20px !important;
 }

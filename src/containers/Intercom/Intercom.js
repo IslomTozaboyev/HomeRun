@@ -22,7 +22,7 @@ export default class Intercom extends Component {
                         <Internet>
                             <div className="text-center m-0 mb-5">
                                 <img src={capterra} alt="rasm" />
-                                <h1 className="my-3">4,5</h1>
+                                <h1 className="my-3 display-1 fw-bold">4,5</h1>
                                 <img className="my-3" src={stars} alt="rasm" />
                                 <p>Average review on Capterra, <br />
                                 independent review site</p>
@@ -31,7 +31,7 @@ export default class Intercom extends Component {
                         <Internet>
                             <div className="text-center m-0">
                                 <img src={intercom} alt="rasm" />
-                                <h1 className="my-3">98,8%</h1>
+                                <h1 className="my-3 display-1 fw-bold">98,8%</h1>
                                 <img className="my-3" src={smile} alt="rasm" />
                                 <p>Average rating based on <br />
                                 1500+ support conversations</p>
