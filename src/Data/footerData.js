@@ -1,6 +1,6 @@
 import { faBeer } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import box from "../img/input.png"
+import { Button ,InputGroup,Input,InputGroupAddon,} from "reactstrap";
 
 export default [
     {
@@ -26,7 +26,7 @@ export default [
         title: "About Homerun",
         list: [
                {title: "About us", url: "#About"},
-               {title: "We're hiring", url: "#hiring"},
+               {title: "We're hiring", url: "#hiring", badge:  <span className="badge rounded-pill bg-danger">2</span>},
                {title: "Contact us", url: "#Contact"},
         ]
     },
@@ -48,8 +48,8 @@ export default [
         colProps:"col-md-6 col-lg-3 mb-5",
         title: "Guides",
         list: [
-            {title: "Remote Hiring", url: "#Hiring"},
-            {title: "Employer Branding", url: "#Employer"},
+            {title: "Remote Hiring", url: "#Hiring" , badge: <span className="badge rounded-pill bg-danger">new</span>} ,
+            {title: "Employer Branding", url: "#Employer",},
             {title: "Job Interviewing", url: "#Interviewing"},
             {title: "Diversity & Inclusion", url: "#Inclusion"},
             {title: "Attracting Talent", url: "#Talent"},
@@ -68,8 +68,14 @@ export default [
         colProps:"col-md-6 col-lg-3",
         title: "Sign up to our newsletter",
         list: [
-               {title: "rasm"},
-               {title: "rasm"}
+            {
+                title:    <InputGroup>
+                <Input className="fw-bold" placeholder="Search" />
+                <InputGroupAddon addonType="append">
+                  <Button>Search</Button>
+                </InputGroupAddon>
+              </InputGroup>
+            }
         ]
     },
 ]

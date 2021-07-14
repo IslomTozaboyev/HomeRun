@@ -12,12 +12,14 @@ class Column extends Component {
         console.log(title, list);
 
         return <div className={colProps || `col-6 col-sm-6 col-md-4 col-lg-2 py-5 mb-4 mt-5`}>
-            <p className="fw-bold text-white">{title}</p>
+            <ul className="fw-bold text-white list-unstyled">
+                <li>{title}</li>
             {
                 list.map((value, index) => {
-                    return <a href={value.url} className={`d-block my-3 text-secondary ${value.className}`}>{value.icon }{ value.title}</a>
+                    return<li> <a href={value.url} className={`d-block my-3 text-secondary ${value.className}`}>{ value.title} {value.badge }</a></li>
                 })
-            }
+                }
+                </ul>
         </div>
     }
 }

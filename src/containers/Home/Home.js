@@ -9,6 +9,30 @@ import img5 from "../../img/img5.png";
 import img6 from "../../img/img6.png";
 import img7 from "../../img/img7.png";
 
+const dataImg = [
+    {
+        img: img1,
+    },
+    {
+        img: img2,
+    },
+    {
+        img: img3,
+    },
+    {
+        img: img4,
+    },
+    {
+        img: img5,
+    },
+    {
+        img: img6,
+    },
+    {
+        img: img7,
+    },
+]
+
 export default class Home extends Component {
     render() {
         return (
@@ -27,13 +51,12 @@ export default class Home extends Component {
                     </div>
                 </div>
                 <div className="text-center mt-5">
-                    <img src={img1} alt="rasm" />
-                    <img src={img2} alt="rasm" />
-                    <img src={img3} alt="rasm" />
-                    <img src={img4} alt="rasm" />
-                    <img src={img5} alt="rasm" />
-                    <img src={img6} alt="rasm" />
-                    <img src={img7} alt="rasm" />
+                    {
+                        dataImg.map((v, i) => {
+                            return  <img src={v.img} alt="rasm" />
+                        })
+                    }
+                   
               </div>
           </div>
         )

@@ -1,113 +1,20 @@
-.work img {
-  transform: translate(-7%) !important;
-  width: 700px;
-}
-.work col {
-  position: relative !important;
+.workimg {
+  position: relative;
 }
 .work .col .box {
+  width: 300px;
   position: absolute;
-  top: 1200px;
-  left: 600px;
+  top: 90%;
+  left: 50%;
   background: aliceblue;
   padding: 0px 20px;
   border-radius: 20px;
-}
-
-@media screen and (max-width: 1200px) {
-  .work .col .box {
-    position: absolute;
-    top: 1320px;
-    left: 500px;
-  }
-}
-
-@media screen and (max-width: 995px) {
-  .work img {
-    transform: translate(-20%) !important;
-    width: 600px;
-  }
-
-  .work .col .box {
-    position: absolute;
-    top: 1370px;
-    left: 350px;
-  }
-}
-
-@media screen and (max-width: 770px) {
-  .work img {
-    transform: translate(-15%) !important;
-    width: 500px;
-  }
-
-  .work .col .box {
-    position: absolute;
-    top: 1315px;
-    left: 250px;
-  }
-}
-
-@media screen and (max-width: 750px) {
-  .work img {
-    transform: translate(-0%) !important;
-    width: 400px;
-  }
-
-  .work .col .box {
-    position: absolute;
-    top: 1380px;
-    left: 225px;
-    padding: 0px 10px;
-  }
+  transform: translateX(-50%);
 }
 
 @media screen and (max-width: 500px) {
-  .work img {
-    transform: translate(-0%) !important;
-    width: 300px;
-  }
-
   .work .col .box {
-    position: absolute;
-    top: 1480px;
-    left: 140px;
-    padding: 0px 10px;
-  }
-  .work .col .box p {
+    width: 250px;
     font-size: 12px;
-  }
-}
-@media screen and (max-width: 470px) {
-  .work img {
-    transform: translate(-0%) !important;
-    width: 250px;
-  }
-
-  .work .col .box {
-    position: absolute;
-    top: 1550px;
-    left: 140px;
-    padding: 0px 10px;
-  }
-  .work .col .box p {
-    font-size: 10px;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .work img {
-    transform: translate(-0%) !important;
-    width: 250px;
-  }
-
-  .work .col .box {
-    position: absolute;
-    top: 1580px;
-    left: 90px;
-    padding: 0px 10px;
-  }
-  .work .col .box p {
-    font-size: 10px;
   }
 }
